@@ -1,5 +1,6 @@
 import React from "react";
-import "./counter.scss";
+import classes from "./counter.module.scss";
+
 export const Counter = () => {
-  return <div id="work">work</div>;
+  return <div id={classes.work}>work</div>;
 };
