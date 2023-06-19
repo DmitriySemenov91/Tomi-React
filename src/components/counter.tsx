@@ -1,4 +1,3 @@
-import React from "react";
 import classes from "./counter.module.scss";
 
 export const Counter = () => {
