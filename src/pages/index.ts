@@ -1,2 +1,2 @@
-export * from "./MainPage/MainPage.lazy";
-export * from "./AboutPage/AboutPage.lazy";
+export * from "./MainPage";
+export * from "./AboutPage";

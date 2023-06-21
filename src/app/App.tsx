@@ -1,16 +1,15 @@
 import React, { Suspense } from "react";
 import { Link, Route, Routes } from "react-router-dom";
 
-import { AboutPageLazy, MainPageLazy } from "./pages";
-import { useTheme } from "./hooks";
-import { classNames } from "./helpers";
+import { AboutPageLazy, MainPageLazy } from "pages";
+import { useTheme } from "shared/hooks";
+import { classNames } from "shared";
 
 import "./styles/index.scss";
 
 export const App = () => {
   const { theme, toggleTheme } = useTheme();
 
-  //className={classNames("app", { hovered: true, selected: false }, [theme])}
   return (
     <div className={classNames("app", {}, [theme])}>
       <button onClick={toggleTheme}>Toggle Theme</button>

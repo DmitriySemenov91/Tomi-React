@@ -3,7 +3,7 @@ import {
   LOCAL_STORAGE_THEME_KEY,
   Theme,
   ThemeContext,
-} from "../theme/ThemeContext";
+} from "app/providers/themeProvider/lib/ThemeContext";
 
 interface UseThemeResult {
   theme: Theme;
